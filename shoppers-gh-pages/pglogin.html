@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="css/jquery-ui.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link href="CssLogin.css" rel="stylesheet" type="text/css"/>
+
 
 
     <link rel="stylesheet" href="css/aos.css">
@@ -87,8 +89,26 @@
         </div>
       </nav>
     </header>
+      <section>
+        
+       <div class="formulario">  
 
-    <div class="site-blocks-cover" style="background-image: url(lofofinaa.png);"data-aos="fade">
+            <form action="login" method="post" id="validate">                  
+             
+                <label> Digite seu CPF</label>
+                <input name="CPF" type="text" class="p" id="cpf">
+
+                <label> Digite sua Senha</label>
+                <input name="" type="password" class="p">  
+
+                <input type="submit" value="Enviar">
+
+            </form>
+      </div><!--/formulario-->
+                
+    </section>
+
+    
      
     <footer class="site-footer border-top">
     </footer>
@@ -103,6 +123,12 @@
   <script src="js/aos.js"></script>
 
   <script src="js/main.js"></script>
+
+  <script type="text/javascript" src="Script/jquery-1.10.2.min.js"></script>
+  <script type="text/javascript" src="Script/jquery.maskedinput.min.js"></script>
+  <script type="text/javascript" src="Script/jquery.validate.min.js"></script>
+  <script type="text/javascript" src="Script/jquery.zebra-datepicker.js"></script>
+
     
   </body>
 </html>
